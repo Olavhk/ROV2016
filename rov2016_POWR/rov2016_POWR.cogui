@@ -35,17 +35,17 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/rov2016_POWR/POWR_declare_global_vars.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="234" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/rov2016_POWR/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/rov2016_POWR/main.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Olavhk/Documents/GitHub/ROV2016/rov2016_POWR/main.c" title="main.c" tooltip="C:/Users/Olavhk/Documents/GitHub/ROV2016/rov2016_POWR/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/rov2016_POWR/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="1164" selectionTopPixel="441"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1170" selectionTopPixel="441"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="POWR_Switch.c" partName="POWR_Switch.c" path="C:/CooCox/CoIDE/workspace/rov2016_POWR/POWR_Switch.c" title="POWR_Switch.c" tooltip="C:/CooCox/CoIDE/workspace/rov2016_POWR/POWR_Switch.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="POWR_Switch.c" partName="POWR_Switch.c" path="C:/Users/Olavhk/Documents/GitHub/ROV2016/rov2016_POWR/POWR_Switch.c" title="POWR_Switch.c" tooltip="C:/Users/Olavhk/Documents/GitHub/ROV2016/rov2016_POWR/POWR_Switch.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/rov2016_POWR/POWR_Switch.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="798" selectionTopPixel="462"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5277" selectionTopPixel="1913"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="POWR_SysTick.c" partName="POWR_SysTick.c" path="C:/CooCox/CoIDE/workspace/rov2016_POWR/POWR_SysTick.c" title="POWR_SysTick.c" tooltip="C:/CooCox/CoIDE/workspace/rov2016_POWR/POWR_SysTick.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="POWR_SysTick.c" partName="POWR_SysTick.c" path="C:/Users/Olavhk/Documents/GitHub/ROV2016/rov2016_POWR/POWR_SysTick.c" title="POWR_SysTick.c" tooltip="C:/Users/Olavhk/Documents/GitHub/ROV2016/rov2016_POWR/POWR_SysTick.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/rov2016_POWR/POWR_SysTick.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1121" selectionTopPixel="357"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1098" selectionTopPixel="120"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="POWR_Switch.h" partName="POWR_Switch.h" path="C:/CooCox/CoIDE/workspace/rov2016_POWR/POWR_Switch.h" title="POWR_Switch.h" tooltip="C:/CooCox/CoIDE/workspace/rov2016_POWR/POWR_Switch.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/rov2016_POWR/POWR_Switch.h"/>
@@ -59,7 +59,7 @@
 <element path="/rov2016_POWR"/>
 </expanded>
 <selection>
-<element path="/rov2016_POWR/main.c"/>
+<element path="/rov2016_POWR/POWR_Switch.c"/>
 </selection>
 </viewState>
 </view>
@@ -258,21 +258,13 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/rov2016_POWR/semihosting/semihosting.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/rov2016_POWR/manip.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/rov2016_POWR/POWR_Switch.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/rov2016_POWR/stm_lib/inc/stm32f10x_gpio.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/rov2016_POWR/POWR_declare_global_vars.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/rov2016_POWR/POWR_Canbus.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/rov2016_POWR/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/rov2016_POWR/POWR_Switch.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/rov2016_POWR/POWR_Switch.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/rov2016_POWR/main.c"/>
 </editors>
-<item historyLabel="POWR_SysTick.c" index="2">
-<position info="not_deleted" x="2597" y="0"/>
-</item>
-<item historyLabel="stm32f10x_gpio.h" index="6">
-<position info="not_deleted" x="5008" y="11"/>
-</item>
-<item historyLabel="POWR_SysTick.c" index="2">
-<position info="not_deleted" x="2597" y="0"/>
-</item>
 <item historyLabel="manip.c" index="4">
 <position info="not_deleted" x="10897" y="0"/>
 </item>
@@ -285,7 +277,7 @@
 <item historyLabel="POWR_SysTick.c" index="2">
 <position info="not_deleted" x="2597" y="0"/>
 </item>
-<item historyLabel="POWR_declare_global_vars.h" index="7">
+<item historyLabel="POWR_declare_global_vars.h" index="6">
 <position/>
 </item>
 <item historyLabel="POWR_SysTick.c" index="2">
@@ -300,7 +292,7 @@
 <item historyLabel="POWR_define_global_vars.h" index="1">
 <position info="not_deleted" x="149" y="21"/>
 </item>
-<item historyLabel="POWR_declare_global_vars.h" index="7">
+<item historyLabel="POWR_declare_global_vars.h" index="6">
 <position info="not_deleted" x="162" y="21"/>
 </item>
 <item historyLabel="POWR_define_global_vars.h" index="1">
@@ -321,22 +313,22 @@
 <item historyLabel="POWR_define_global_vars.h" index="1">
 <position info="not_deleted" x="149" y="21"/>
 </item>
-<item historyLabel="POWR_declare_global_vars.h" index="7">
+<item historyLabel="POWR_declare_global_vars.h" index="6">
 <position info="not_deleted" x="162" y="21"/>
 </item>
-<item historyLabel="POWR_Canbus.h" index="8">
+<item historyLabel="POWR_Canbus.h" index="7">
 <position info="not_deleted" x="1460" y="46"/>
 </item>
 <item historyLabel="POWR_define_global_vars.h" index="1">
 <position info="not_deleted" x="265" y="0"/>
 </item>
-<item historyLabel="POWR_declare_global_vars.h" index="7">
+<item historyLabel="POWR_declare_global_vars.h" index="6">
 <position info="not_deleted" x="280" y="0"/>
 </item>
-<item historyLabel="main.c" index="9">
+<item historyLabel="main.c" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="9">
+<item historyLabel="main.c" index="8">
 <position info="not_deleted" x="1750" y="0"/>
 </item>
 <item historyLabel="POWR_Switch.c" index="5">
@@ -363,7 +355,7 @@
 <item historyLabel="POWR_SysTick.c" index="2">
 <position info="not_deleted" x="3082" y="0"/>
 </item>
-<item historyLabel="POWR_Switch.h" index="10">
+<item historyLabel="POWR_Switch.h" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="POWR_Switch.c" index="5">
@@ -375,31 +367,31 @@
 <item historyLabel="POWR_SysTick.c" index="2">
 <position info="not_deleted" x="1098" y="32"/>
 </item>
-<item historyLabel="main.c" index="9">
+<item historyLabel="main.c" index="8">
 <position info="not_deleted" x="1640" y="0"/>
 </item>
 <item historyLabel="POWR_define_global_vars.h" index="1">
 <position info="not_deleted" x="239" y="21"/>
 </item>
-<item historyLabel="POWR_declare_global_vars.h" index="7">
+<item historyLabel="POWR_declare_global_vars.h" index="6">
 <position info="not_deleted" x="279" y="0"/>
 </item>
-<item historyLabel="POWR_Canbus.h" index="8">
+<item historyLabel="POWR_Canbus.h" index="7">
 <position info="not_deleted" x="1460" y="46"/>
 </item>
 <item historyLabel="POWR_define_global_vars.h" index="1">
 <position info="not_deleted" x="222" y="0"/>
 </item>
-<item historyLabel="POWR_declare_global_vars.h" index="7">
+<item historyLabel="POWR_declare_global_vars.h" index="6">
 <position info="not_deleted" x="234" y="0"/>
 </item>
-<item historyLabel="main.c" index="9">
+<item historyLabel="main.c" index="8">
 <position info="not_deleted" x="1572" y="1"/>
 </item>
 <item historyLabel="POWR_define_global_vars.h" index="1">
 <position info="not_deleted" x="149" y="21"/>
 </item>
-<item historyLabel="POWR_declare_global_vars.h" index="7">
+<item historyLabel="POWR_declare_global_vars.h" index="6">
 <position info="not_deleted" x="234" y="0"/>
 </item>
 <item historyLabel="POWR_define_global_vars.h" index="1">
@@ -408,8 +400,17 @@
 <item historyLabel="POWR_SysTick.c" index="2">
 <position info="not_deleted" x="1117" y="0"/>
 </item>
-<item historyLabel="main.c" index="9">
+<item historyLabel="main.c" index="8">
 <position info="not_deleted" x="1164" y="4"/>
+</item>
+<item historyLabel="POWR_SysTick.c" index="2">
+<position info="not_deleted" x="1098" y="32"/>
+</item>
+<item historyLabel="POWR_Switch.c" index="10">
+<position info="not_deleted" x="798" y="0"/>
+</item>
+<item historyLabel="main.c" index="11">
+<position info="not_deleted" x="1170" y="0"/>
 </item>
 <item active="true" historyLabel="POWR_SysTick.c" index="2">
 <position info="not_deleted" x="1098" y="32"/>

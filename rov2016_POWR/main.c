@@ -33,7 +33,7 @@
 
 
 
- uint8_t message = 0b00000000;
+ uint8_t message = 0b00000100;
 
 int main(void)
 {
@@ -47,11 +47,12 @@ int main(void)
 	//setCAM_POS();			//PWM signal ut
 
 
-//	fmi_topside_xbox_ctrl = CAN_addRxFilter(TOP_XBOX_CTRLS);
-//	fmi_topside_xbox_axes = CAN_addRxFilter(TOP_XBOX_AXES);
 	fmi_topside_powr_ctrl = CAN_addRxFilter(TOP_POWR_CTRL);
-//	fmi_sensor_depth_temp = CAN_addRXFilter(SENSOR_DEPTH_TEMP);
-//	fmi_manip_motor_curr9 = CAN_addRxFilter(VESC_MANIP_GRIP);
+	fmi_manip_motor_curr_9 = CAN_addRxFilter(VESC_CURRENT_MANIP_GRIP); //manip.c
+	fmi_manip_motor_curr_10= CAN_addRxFilter(VESC_CURRENT_MANIP_RULL);//manip.c
+	fmi_manip_motor_curr_11= CAN_addRxFilter(VESC_CURRENT_MANIP_STAMP);//manip.c
+	fmi_manip_motor_curr_12= CAN_addRxFilter(VESC_CURRENT_MANIP_TELE);//manip.c
+
 
 	setPOWR_UPDATE(message);
 	//Motor konstant PÅ!

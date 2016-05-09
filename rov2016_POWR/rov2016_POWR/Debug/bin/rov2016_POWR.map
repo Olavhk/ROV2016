@@ -9,7 +9,7 @@ c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none
 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
                               ..\obj\POWR_rov2016_Interface.o (__aeabi_fsub)
 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m\libgcc.a(_arm_muldivsf3.o)
-                              ..\obj\POWR_rov2016_Interface.o (__aeabi_fmul)
+                              ..\obj\manip.o (__aeabi_fmul)
 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m\libgcc.a(_arm_cmpsf2.o)
                               ..\obj\POWR_rov2016_Interface.o (__aeabi_fcmplt)
 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m\libgcc.a(_arm_fixsfsi.o)
@@ -26,7 +26,7 @@ Discarded input sections
  .data          0x00000000        0x0 ..\obj\semihosting.o
  .bss           0x00000000        0x0 ..\obj\semihosting.o
  .debug_line    0x00000000        0x0 ..\obj\semihosting.o
- .debug_str     0x00000000       0xbd ..\obj\semihosting.o
+ .debug_str     0x00000000       0xcc ..\obj\semihosting.o
  .comment       0x00000000       0x6f ..\obj\semihosting.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\semihosting.o
@@ -46,8 +46,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x38 ..\obj\POWR_Current.o
  .debug_ranges  0x00000000       0x28 ..\obj\POWR_Current.o
- .debug_line    0x00000000      0x275 ..\obj\POWR_Current.o
- .debug_str     0x00000000      0x438 ..\obj\POWR_Current.o
+ .debug_line    0x00000000      0x2b1 ..\obj\POWR_Current.o
+ .debug_str     0x00000000      0x447 ..\obj\POWR_Current.o
  .comment       0x00000000       0x6f ..\obj\POWR_Current.o
  .debug_frame   0x00000000       0x94 ..\obj\POWR_Current.o
  .ARM.attributes
@@ -310,13 +310,36 @@ Discarded input sections
  .text.GPIO_ETH_MediaInterfaceConfig
                 0x00000000       0x1c ..\obj\stm32f10x_gpio.o
  .text          0x00000000        0x0 ..\obj\main.o
- .data          0x00000000        0x0 ..\obj\main.o
  .text          0x00000000        0x0 ..\obj\manip.o
- .data          0x00000000        0x0 ..\obj\manip.o
- .bss           0x00000000        0x0 ..\obj\manip.o
- .debug_line    0x00000000        0x0 ..\obj\manip.o
- .debug_str     0x00000000       0xab ..\obj\manip.o
+ .data          0x00000000       0x18 ..\obj\manip.o
+ .bss           0x00000000       0x5c ..\obj\manip.o
+ .text.Hent_SettPunkt
+                0x00000000      0x23c ..\obj\manip.o
+ .text.GPIO_Oppstart_Enkoder
+                0x00000000       0x58 ..\obj\manip.o
+ .text.Manip_Oppstart
+                0x00000000        0xc ..\obj\manip.o
+ .text.Les_Enkodere
+                0x00000000       0xfc ..\obj\manip.o
+ .text.Manip_Reguler
+                0x00000000      0x3d8 ..\obj\manip.o
+ .text.Manip_Teleskop
+                0x00000000       0x6c ..\obj\manip.o
+ .text.Manip_Hent_Strom
+                0x00000000       0x80 ..\obj\manip.o
+ .text.Manip_Kontroller_Oppdater
+                0x00000000       0x18 ..\obj\manip.o
+ .text.Manip_Grip_F
+                0x00000000       0xe4 ..\obj\manip.o
+ .debug_info    0x00000000      0x695 ..\obj\manip.o
+ .debug_abbrev  0x00000000      0x17a ..\obj\manip.o
+ .debug_aranges
+                0x00000000       0x60 ..\obj\manip.o
+ .debug_ranges  0x00000000       0x50 ..\obj\manip.o
+ .debug_line    0x00000000      0x3ed ..\obj\manip.o
+ .debug_str     0x00000000      0x632 ..\obj\manip.o
  .comment       0x00000000       0x6f ..\obj\manip.o
+ .debug_frame   0x00000000      0x128 ..\obj\manip.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\manip.o
  .text          0x00000000        0x0 ..\obj\printf.o
@@ -353,8 +376,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 ..\obj\printf.o
  .debug_ranges  0x00000000       0x90 ..\obj\printf.o
- .debug_line    0x00000000      0x375 ..\obj\printf.o
- .debug_str     0x00000000      0x670 ..\obj\printf.o
+ .debug_line    0x00000000      0x384 ..\obj\printf.o
+ .debug_str     0x00000000      0x68e ..\obj\printf.o
  .comment       0x00000000       0x6f ..\obj\printf.o
  .debug_frame   0x00000000      0x2dc ..\obj\printf.o
  .ARM.attributes
@@ -529,8 +552,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xd0 ..\obj\stm32f10x_spi.o
  .debug_ranges  0x00000000       0xc0 ..\obj\stm32f10x_spi.o
- .debug_line    0x00000000      0x439 ..\obj\stm32f10x_spi.o
- .debug_str     0x00000000      0x607 ..\obj\stm32f10x_spi.o
+ .debug_line    0x00000000      0x475 ..\obj\stm32f10x_spi.o
+ .debug_str     0x00000000      0x616 ..\obj\stm32f10x_spi.o
  .comment       0x00000000       0x6f ..\obj\stm32f10x_spi.o
  .debug_frame   0x00000000      0x3a0 ..\obj\stm32f10x_spi.o
  .ARM.attributes
@@ -547,8 +570,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x28 ..\obj\POWR_Cam_Control.o
  .debug_ranges  0x00000000       0x18 ..\obj\POWR_Cam_Control.o
- .debug_line    0x00000000      0x233 ..\obj\POWR_Cam_Control.o
- .debug_str     0x00000000      0x529 ..\obj\POWR_Cam_Control.o
+ .debug_line    0x00000000      0x26f ..\obj\POWR_Cam_Control.o
+ .debug_str     0x00000000      0x538 ..\obj\POWR_Cam_Control.o
  .comment       0x00000000       0x6f ..\obj\POWR_Cam_Control.o
  .debug_frame   0x00000000       0x54 ..\obj\POWR_Cam_Control.o
  .ARM.attributes
@@ -600,7 +623,7 @@ Linker script and memory map
 
                 0x20005000                _eram = 0x20005000
 
-.text           0x08000000     0x16e8
+.text           0x08000000     0x1738
  *(.isr_vector)
  .isr_vector    0x08000000      0x10c ..\obj\startup_stm32f10x_md.o
                 0x08000000                g_pfnVectors
@@ -708,54 +731,54 @@ Linker script and memory map
  .text.GPIO_PinRemapConfig
                 0x08000e88       0xe0 ..\obj\stm32f10x_gpio.o
                 0x08000e88                GPIO_PinRemapConfig
- .text.main     0x08000f68       0x38 ..\obj\main.o
+ .text.main     0x08000f68       0x88 ..\obj\main.o
                 0x08000f68                main
  .text.RCC_APB2PeriphClockCmd
-                0x08000fa0       0x3c ..\obj\stm32f10x_rcc.o
-                0x08000fa0                RCC_APB2PeriphClockCmd
+                0x08000ff0       0x3c ..\obj\stm32f10x_rcc.o
+                0x08000ff0                RCC_APB2PeriphClockCmd
  .text.RCC_APB1PeriphClockCmd
-                0x08000fdc       0x3c ..\obj\stm32f10x_rcc.o
-                0x08000fdc                RCC_APB1PeriphClockCmd
+                0x0800102c       0x3c ..\obj\stm32f10x_rcc.o
+                0x0800102c                RCC_APB1PeriphClockCmd
  .text.RCC_APB1PeriphResetCmd
-                0x08001018       0x3c ..\obj\stm32f10x_rcc.o
-                0x08001018                RCC_APB1PeriphResetCmd
+                0x08001068       0x3c ..\obj\stm32f10x_rcc.o
+                0x08001068                RCC_APB1PeriphResetCmd
  .text.CAN_transmitAlive
-                0x08001054       0x34 ..\obj\POWR_rov2016_Interface.o
-                0x08001054                CAN_transmitAlive
+                0x080010a4       0x34 ..\obj\POWR_rov2016_Interface.o
+                0x080010a4                CAN_transmitAlive
  .text.CAN_init
-                0x08001088      0x118 ..\obj\POWR_Canbus.o
-                0x08001088                CAN_init
+                0x080010d8      0x118 ..\obj\POWR_Canbus.o
+                0x080010d8                CAN_init
  .text.CAN1_RX1_IRQHandler
-                0x080011a0       0x70 ..\obj\POWR_Canbus.o
-                0x080011a0                CAN1_RX1_IRQHandler
+                0x080011f0       0x70 ..\obj\POWR_Canbus.o
+                0x080011f0                CAN1_RX1_IRQHandler
  .text.CAN_addRxFilter
-                0x08001210       0xac ..\obj\POWR_Canbus.o
-                0x08001210                CAN_addRxFilter
+                0x08001260       0xac ..\obj\POWR_Canbus.o
+                0x08001260                CAN_addRxFilter
  .text.CAN_transmitByte
-                0x080012bc       0x80 ..\obj\POWR_Canbus.o
-                0x080012bc                CAN_transmitByte
- .text          0x0800133c       0x26 ..\obj\sh_cmd.o
-                0x0800133c                SH_DoCommand
-                0x0800134e                HardFault_Handler
- *fill*         0x08001362        0x2 
+                0x0800130c       0x80 ..\obj\POWR_Canbus.o
+                0x0800130c                CAN_transmitByte
+ .text          0x0800138c       0x26 ..\obj\sh_cmd.o
+                0x0800138c                SH_DoCommand
+                0x0800139e                HardFault_Handler
+ *fill*         0x080013b2        0x2 
  .text.initReleStyring
-                0x08001364       0x44 ..\obj\POWR_Switch.o
-                0x08001364                initReleStyring
+                0x080013b4       0x44 ..\obj\POWR_Switch.o
+                0x080013b4                initReleStyring
  .text.init_TIM4
-                0x080013a8       0x90 ..\obj\POWR_Switch.o
-                0x080013a8                init_TIM4
+                0x080013f8       0x90 ..\obj\POWR_Switch.o
+                0x080013f8                init_TIM4
  .text.setPOWR_UPDATE
-                0x08001438       0xd4 ..\obj\POWR_Switch.o
-                0x08001438                setPOWR_UPDATE
+                0x08001488       0xd4 ..\obj\POWR_Switch.o
+                0x08001488                setPOWR_UPDATE
  .text.SysTick_init
-                0x0800150c       0x2c ..\obj\POWR_SysTick.o
-                0x0800150c                SysTick_init
+                0x0800155c       0x2c ..\obj\POWR_SysTick.o
+                0x0800155c                SysTick_init
  .text.SysTick_Handler
-                0x08001538       0xec ..\obj\POWR_SysTick.o
-                0x08001538                SysTick_Handler
+                0x08001588       0xec ..\obj\POWR_SysTick.o
+                0x08001588                SysTick_Handler
  .text.NVIC_Init
-                0x08001624       0xc4 ..\obj\misc.o
-                0x08001624                NVIC_Init
+                0x08001674       0xc4 ..\obj\misc.o
+                0x08001674                NVIC_Init
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -771,102 +794,107 @@ Linker script and memory map
  *(.rodata*)
  *(.eh_fram e*)
 
-.glue_7         0x080016e8        0x0
- .glue_7        0x080016e8        0x0 linker stubs
+.glue_7         0x08001738        0x0
+ .glue_7        0x08001738        0x0 linker stubs
 
-.glue_7t        0x080016e8        0x0
- .glue_7t       0x080016e8        0x0 linker stubs
+.glue_7t        0x08001738        0x0
+ .glue_7t       0x08001738        0x0 linker stubs
 
-.vfp11_veneer   0x080016e8        0x0
- .vfp11_veneer  0x080016e8        0x0 linker stubs
+.vfp11_veneer   0x08001738        0x0
+ .vfp11_veneer  0x08001738        0x0 linker stubs
 
-.v4_bx          0x080016e8        0x0
- .v4_bx         0x080016e8        0x0 linker stubs
+.v4_bx          0x08001738        0x0
+ .v4_bx         0x08001738        0x0 linker stubs
 
-.iplt           0x080016e8        0x0
- .iplt          0x080016e8        0x0 ..\obj\POWR_Current.o
+.iplt           0x08001738        0x0
+ .iplt          0x08001738        0x0 ..\obj\POWR_Current.o
 
-.rel.dyn        0x080016e8        0x0
- .rel.iplt      0x080016e8        0x0 ..\obj\POWR_Current.o
+.rel.dyn        0x08001738        0x0
+ .rel.iplt      0x08001738        0x0 ..\obj\POWR_Current.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080016e8                __exidx_start = .
+                0x08001738                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x080016e8                __exidx_end = .
-                0x080016e8                __etext = .
-                0x080016e8                _sidata = __etext
+                0x08001738                __exidx_end = .
+                0x08001738                __etext = .
+                0x08001738                _sidata = __etext
 
-.data           0x20000000        0x0 load address 0x080016e8
+.data           0x20000000        0x4 load address 0x08001738
                 0x20000000                __data_start__ = .
                 0x20000000                _sdata = __data_start__
  *(vtable)
  *(.data*)
-                0x20000000                . = ALIGN (0x4)
+ .data          0x20000000        0x1 ..\obj\main.o
+                0x20000000                message
+                0x20000004                . = ALIGN (0x4)
+ *fill*         0x20000001        0x3 
                 [!provide]                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
                 [!provide]                PROVIDE (__preinit_array_end, .)
-                0x20000000                . = ALIGN (0x4)
+                0x20000004                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
                 [!provide]                PROVIDE (__init_array_end, .)
-                0x20000000                . = ALIGN (0x4)
+                0x20000004                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
                 [!provide]                PROVIDE (__fini_array_end, .)
  *(.jcr*)
-                0x20000000                . = ALIGN (0x4)
-                0x20000000                __data_end__ = .
-                0x20000000                _edata = __data_end__
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                __data_end__ = .
+                0x20000004                _edata = __data_end__
 
-.igot.plt       0x20000000        0x0
- .igot.plt      0x20000000        0x0 ..\obj\POWR_Current.o
+.igot.plt       0x20000004        0x0 load address 0x0800173c
+ .igot.plt      0x20000004        0x0 ..\obj\POWR_Current.o
 
-.bss            0x20000000      0x15c
-                0x20000000                . = ALIGN (0x4)
-                0x20000000                __bss_start__ = .
-                0x20000000                _sbss = __bss_start__
+.bss            0x20000004      0x160 load address 0x0800173c
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                __bss_start__ = .
+                0x20000004                _sbss = __bss_start__
  *(.bss*)
- .bss           0x20000000        0x7 ..\obj\main.o
-                0x20000000                fmi_topside_xbox_ctrl
-                0x20000001                fmi_topside_xbox_axes
-                0x20000002                fmi_topside_powr_ctrl
-                0x20000003                fmi_manip_motor_curr9
-                0x20000004                fmi_sensor_depth_temp
-                0x20000005                FlagStatus_SysTick
-                0x20000006                message
- *fill*         0x20000007        0x1 
- .bss           0x20000008       0x19 ..\obj\POWR_rov2016_Interface.o
-                0x20000008                controller_data
- *fill*         0x20000021        0x3 
- .bss           0x20000024       0x2b ..\obj\POWR_Canbus.o
- .bss           0x2000004f        0x1 ..\obj\POWR_Switch.o
- .bss           0x20000050       0x8c ..\obj\POWR_SysTick.o
-                0x2000005c                can_receive_buffer
+ .bss           0x20000004        0x9 ..\obj\main.o
+                0x20000004                fmi_topside_xbox_ctrl
+                0x20000005                fmi_topside_xbox_axes
+                0x20000006                fmi_topside_powr_ctrl
+                0x20000007                fmi_manip_motor_curr_9
+                0x20000008                fmi_manip_motor_curr_10
+                0x20000009                fmi_manip_motor_curr_11
+                0x2000000a                fmi_manip_motor_curr_12
+                0x2000000b                fmi_sensor_depth_temp
+                0x2000000c                FlagStatus_SysTick
+ *fill*         0x2000000d        0x3 
+ .bss           0x20000010       0x19 ..\obj\POWR_rov2016_Interface.o
+                0x20000010                controller_data
+ *fill*         0x20000029        0x3 
+ .bss           0x2000002c       0x2b ..\obj\POWR_Canbus.o
+ .bss           0x20000057        0x1 ..\obj\POWR_Switch.o
+ .bss           0x20000058       0x8c ..\obj\POWR_SysTick.o
+                0x20000064                can_receive_buffer
  *(COMMON)
- COMMON         0x200000dc       0x80 ..\obj\POWR_Canbus.o
-                0x200000dc                Rx_Array
-                0x2000015c                . = ALIGN (0x4)
-                0x2000015c                __bss_end__ = .
-                0x2000015c                _ebss = __bss_end__
+ COMMON         0x200000e4       0x80 ..\obj\POWR_Canbus.o
+                0x200000e4                Rx_Array
+                0x20000164                . = ALIGN (0x4)
+                0x20000164                __bss_end__ = .
+                0x20000164                _ebss = __bss_end__
 
-.heap           0x2000015c        0x0
-                0x2000015c                __end__ = .
-                0x2000015c                _end = __end__
-                0x2000015c                end = __end__
+.heap           0x20000164        0x0
+                0x20000164                __end__ = .
+                0x20000164                _end = __end__
+                0x20000164                end = __end__
  *(.heap*)
-                0x2000015c                __HeapLimit = .
+                0x20000164                __HeapLimit = .
 
-.co_stack       0x2000015c      0x404
-                0x20000160                . = ALIGN (0x8)
- *fill*         0x2000015c        0x4 
+.co_stack       0x20000164      0x404 load address 0x0800189c
+                0x20000168                . = ALIGN (0x8)
+ *fill*         0x20000164        0x4 
  *(.co_stack .co_stack.*)
- .co_stack      0x20000160      0x400 ..\obj\startup_stm32f10x_md.o
-                0x20000160                pulStack
+ .co_stack      0x20000168      0x400 ..\obj\startup_stm32f10x_md.o
+                0x20000168                pulStack
                 0x20005000                __StackTop = (ORIGIN (ram) + LENGTH (ram))
                 0x20004bfc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
                 [!provide]                PROVIDE (__stack, __StackTop)
@@ -897,20 +925,20 @@ LOAD c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm
 END GROUP
 OUTPUT(rov2016_POWR.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x5f53
+.debug_info     0x00000000     0x5fa4
  .debug_info    0x00000000     0x1c60 ..\obj\stm32f10x_tim.o
  .debug_info    0x00001c60      0x47d ..\obj\system_stm32f10x.o
  .debug_info    0x000020dd       0xe9 ..\obj\startup_stm32f10x_md.o
  .debug_info    0x000021c6      0xba4 ..\obj\stm32f10x_can.o
  .debug_info    0x00002d6a      0x6f6 ..\obj\stm32f10x_gpio.o
- .debug_info    0x00003460      0x13d ..\obj\main.o
- .debug_info    0x0000359d      0x899 ..\obj\stm32f10x_rcc.o
- .debug_info    0x00003e36      0x5d2 ..\obj\POWR_rov2016_Interface.o
- .debug_info    0x00004408      0xa8c ..\obj\POWR_Canbus.o
- .debug_info    0x00004e94       0xa3 ..\obj\sh_cmd.o
- .debug_info    0x00004f37      0x591 ..\obj\POWR_Switch.o
- .debug_info    0x000054c8      0x54a ..\obj\POWR_SysTick.o
- .debug_info    0x00005a12      0x541 ..\obj\misc.o
+ .debug_info    0x00003460      0x170 ..\obj\main.o
+ .debug_info    0x000035d0      0x899 ..\obj\stm32f10x_rcc.o
+ .debug_info    0x00003e69      0x5d2 ..\obj\POWR_rov2016_Interface.o
+ .debug_info    0x0000443b      0xa8c ..\obj\POWR_Canbus.o
+ .debug_info    0x00004ec7       0xc1 ..\obj\sh_cmd.o
+ .debug_info    0x00004f88      0x591 ..\obj\POWR_Switch.o
+ .debug_info    0x00005519      0x54a ..\obj\POWR_SysTick.o
+ .debug_info    0x00005a63      0x541 ..\obj\misc.o
 
 .debug_abbrev   0x00000000     0x113e
  .debug_abbrev  0x00000000      0x1b2 ..\obj\stm32f10x_tim.o
@@ -969,46 +997,46 @@ OUTPUT(rov2016_POWR.elf elf32-littlearm)
  .debug_ranges  0x00000688       0x30 ..\obj\POWR_SysTick.o
  .debug_ranges  0x000006b8       0x30 ..\obj\misc.o
 
-.debug_line     0x00000000     0x2c1b
- .debug_line    0x00000000      0xb5c ..\obj\stm32f10x_tim.o
- .debug_line    0x00000b5c      0x228 ..\obj\system_stm32f10x.o
- .debug_line    0x00000d84       0xa4 ..\obj\startup_stm32f10x_md.o
- .debug_line    0x00000e28      0x576 ..\obj\stm32f10x_can.o
- .debug_line    0x0000139e      0x3dc ..\obj\stm32f10x_gpio.o
- .debug_line    0x0000177a      0x18d ..\obj\main.o
- .debug_line    0x00001907      0x4d7 ..\obj\stm32f10x_rcc.o
- .debug_line    0x00001dde      0x386 ..\obj\POWR_rov2016_Interface.o
- .debug_line    0x00002164      0x33a ..\obj\POWR_Canbus.o
- .debug_line    0x0000249e       0x7e ..\obj\sh_cmd.o
- .debug_line    0x0000251c      0x268 ..\obj\POWR_Switch.o
- .debug_line    0x00002784      0x248 ..\obj\POWR_SysTick.o
- .debug_line    0x000029cc      0x24f ..\obj\misc.o
+.debug_line     0x00000000     0x2e77
+ .debug_line    0x00000000      0xb98 ..\obj\stm32f10x_tim.o
+ .debug_line    0x00000b98      0x246 ..\obj\system_stm32f10x.o
+ .debug_line    0x00000dde       0xb3 ..\obj\startup_stm32f10x_md.o
+ .debug_line    0x00000e91      0x5b2 ..\obj\stm32f10x_can.o
+ .debug_line    0x00001443      0x418 ..\obj\stm32f10x_gpio.o
+ .debug_line    0x0000185b      0x1af ..\obj\main.o
+ .debug_line    0x00001a0a      0x513 ..\obj\stm32f10x_rcc.o
+ .debug_line    0x00001f1d      0x3a4 ..\obj\POWR_rov2016_Interface.o
+ .debug_line    0x000022c1      0x376 ..\obj\POWR_Canbus.o
+ .debug_line    0x00002637       0x8d ..\obj\sh_cmd.o
+ .debug_line    0x000026c4      0x2a4 ..\obj\POWR_Switch.o
+ .debug_line    0x00002968      0x284 ..\obj\POWR_SysTick.o
+ .debug_line    0x00002bec      0x28b ..\obj\misc.o
 
-.debug_str      0x00000000     0x2825
- .debug_str     0x00000000      0xd1a ..\obj\stm32f10x_tim.o
-                                0xde7 (size before relaxing)
- .debug_str     0x00000d1a      0x174 ..\obj\system_stm32f10x.o
-                                0x2f9 (size before relaxing)
- .debug_str     0x00000e8e       0xb2 ..\obj\startup_stm32f10x_md.o
-                                0x149 (size before relaxing)
- .debug_str     0x00000f40      0x524 ..\obj\stm32f10x_can.o
-                                0x738 (size before relaxing)
- .debug_str     0x00001464      0x380 ..\obj\stm32f10x_gpio.o
-                                0x523 (size before relaxing)
- .debug_str     0x000017e4       0xbc ..\obj\main.o
-                                0x1f6 (size before relaxing)
- .debug_str     0x000018a0      0x3ea ..\obj\stm32f10x_rcc.o
-                                0x624 (size before relaxing)
- .debug_str     0x00001c8a      0x465 ..\obj\POWR_rov2016_Interface.o
-                                0x60c (size before relaxing)
- .debug_str     0x000020ef      0x4af ..\obj\POWR_Canbus.o
-                                0x9cd (size before relaxing)
- .debug_str     0x0000259e       0x90 ..\obj\POWR_Switch.o
-                                0x541 (size before relaxing)
- .debug_str     0x0000262e       0xb9 ..\obj\POWR_SysTick.o
-                                0x373 (size before relaxing)
- .debug_str     0x000026e7      0x13e ..\obj\misc.o
-                                0x3c8 (size before relaxing)
+.debug_str      0x00000000     0x2922
+ .debug_str     0x00000000      0xd29 ..\obj\stm32f10x_tim.o
+                                0xdf6 (size before relaxing)
+ .debug_str     0x00000d29      0x183 ..\obj\system_stm32f10x.o
+                                0x308 (size before relaxing)
+ .debug_str     0x00000eac       0xc1 ..\obj\startup_stm32f10x_md.o
+                                0x158 (size before relaxing)
+ .debug_str     0x00000f6d      0x533 ..\obj\stm32f10x_can.o
+                                0x747 (size before relaxing)
+ .debug_str     0x000014a0      0x38f ..\obj\stm32f10x_gpio.o
+                                0x532 (size before relaxing)
+ .debug_str     0x0000182f      0x114 ..\obj\main.o
+                                0x24e (size before relaxing)
+ .debug_str     0x00001943      0x3f9 ..\obj\stm32f10x_rcc.o
+                                0x633 (size before relaxing)
+ .debug_str     0x00001d3c      0x474 ..\obj\POWR_rov2016_Interface.o
+                                0x61b (size before relaxing)
+ .debug_str     0x000021b0      0x4be ..\obj\POWR_Canbus.o
+                                0x9dc (size before relaxing)
+ .debug_str     0x0000266e       0x9f ..\obj\POWR_Switch.o
+                                0x550 (size before relaxing)
+ .debug_str     0x0000270d       0xc8 ..\obj\POWR_SysTick.o
+                                0x382 (size before relaxing)
+ .debug_str     0x000027d5      0x14d ..\obj\misc.o
+                                0x3d7 (size before relaxing)
 
 .comment        0x00000000       0x6e
  .comment       0x00000000       0x6e ..\obj\stm32f10x_tim.o
